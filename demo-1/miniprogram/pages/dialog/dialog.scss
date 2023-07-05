@@ -1,10 +1,22 @@
+.dialog_bg{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  background-color: rgba(0,0,0,0.5);
+}
+.conter_box{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
 .dialogOuterBox {
   width: 460rpx;
   height: 600rpx;
-  // background-color: red;
-
+  // margin: 0px auto;
   position: relative;
-
   .close_icon {
     position: absolute;
     top: 12rpx;
@@ -61,6 +73,9 @@
     position: absolute;
     top: 176rpx;
     margin-bottom: 30rpx;
+    height: 290rpx;
+    overflow: auto;
+
     .middle_dialog_item {
       width: 412rpx;
       height: 130rpx;
