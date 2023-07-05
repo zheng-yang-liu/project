@@ -1,0 +1,18 @@
+<image class="banner" mode="aspectFill" src="/images/banner.png"/>
+
+<view class="list">
+    <view class="item">
+        <image src="/images/coupon.png"/>
+        <view class="item-content">
+            <view class="item-left">
+                <view><text>￥</text>50</view>
+                <view>满100使用</view>
+            </view>
+            <view class="item-center">
+                <view>奈雪的茶饮品优惠券</view>
+                <view>1994-09-24前可用</view>
+            </view>
+            <view class="item-right">已领取</view>
+        </view>
+    </view>
+</view>

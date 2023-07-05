@@ -1,0 +1,34 @@
+<view class="dialogOuterBox">
+  <image src="/images/bgimg.png" class="bgimg" />
+  <image src="../../images/close.png" class="close_icon"></image>
+  <view class="dialog-content">
+    <view class="above_dialog_title">快领取你的新人券包</view>
+    <view class="list">
+      <view class="middle_dialog_item">
+        <image src="../../images/youhuiquan.png"></image>
+        <view class="middle_dialog_item_list">
+          <view class="money"><text>￥</text>50</view>
+          <view class="list_right">
+            <view>新人优惠券</view>
+            <view>无门槛使用</view>
+          </view>
+        </view>
+      </view>
+      <view class="middle_dialog_item">
+        <image src="../../images/youhuiquan.png"></image>
+        <view class="middle_dialog_item_list">
+          <view class="money"><text>￥</text>50</view>
+          <view class="list_right">
+            <view>新人优惠券</view>
+            <view>无门槛使用</view>
+          </view>
+        </view>
+      </view>
+      
+    </view>
+
+
+
+    <view class="under_dialog_button">立即领券</view>
+  </view>
+</view>
