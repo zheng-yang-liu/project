@@ -143,13 +143,13 @@
         <view class="langMoney">￥120</view>
       </view>
 
-      <!-- <view class="langCodeListItem">
+      <view class="langCodeListItem">
         <view class="whiteBg">
           <image src="../../img2/667.png" mode="" />
         </view>
         <view class="shopProjectName">益智积木</view>
         <view class="langMoney">￥120</view>
-      </view> -->
+      </view>
 
       <view class="langCodeListItem">
         <view class="whiteBg">

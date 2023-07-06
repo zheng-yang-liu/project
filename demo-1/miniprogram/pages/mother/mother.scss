@@ -268,7 +268,11 @@
     font-size: 20rpx;
 
     // background-color: red;
-    // overflow-x: auto;
+    overflow-x: auto;
+    .langCodeListItem{
+      // background-color: red;
+      margin-right: 13rpx;
+    }
 
     .whiteBg {
       background-color: #fff;
