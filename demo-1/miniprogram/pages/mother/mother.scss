@@ -1,0 +1,479 @@
+.montherOuterBox {
+  padding: 20rpx 30rpx;
+  font-size: 32rpx;
+}
+
+.sousuoBox {
+  display: flex;
+  // background-color: red;
+  justify-content: space-between;
+  align-items: center;
+
+  .left_input {
+    position: relative;
+    width: 77%;
+
+    view {
+      position: absolute;
+      top: 0px;
+      right: -30rpx;
+      bottom: 0rpx;
+      border-radius: 40rpx;
+      width: 150rpx;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #6cdada;
+      color: #fff;
+      font-size: 30rpx;
+    }
+
+    input {
+      border: 1rpx #6cdada solid;
+      padding: 0rpx 20rpx;
+      border-radius: 40rpx;
+      height: 60rpx;
+      font-size: 18rpx;
+    }
+  }
+
+  .right_qiandao {
+    text-align: center;
+
+    image {
+      width: 60rpx;
+      height: 60rpx;
+    }
+
+    .posR {
+      flex: 0 0 100rpx;
+
+      view {
+        background-color: #5fbfbf;
+        font-size: 20rpx;
+        color: #fff;
+        text-align: center;
+        width: 90rpx;
+        border-radius: 20rpx;
+        margin-top: -20rpx;
+      }
+    }
+  }
+}
+
+.bunner {
+  margin-top: 20rpx;
+
+  image {
+    width: 690rpx;
+    height: 280rpx;
+  }
+}
+
+.shopingProjectIcon {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+  text-align: center;
+
+  .item {
+    width: 20%;
+    margin-top: 30rpx;
+    font-size: 20rpx;
+    // 超出隐藏
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    image {
+      width: 55rpx;
+      height: 55rpx;
+    }
+  }
+}
+
+.ShopingProjectCodeHeight {
+  width: 48%;
+  border-radius: 20rpx;
+  // padding: 20rpx;
+  box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.shoppingProjectCodeBox {
+  margin-top: 20rpx;
+  display: flex;
+  justify-content: space-between;
+
+  .ShopingProjectCode {
+    background-image: linear-gradient(to top, #fafafa 0%, #ecf4f4 100%);
+    width: 48%;
+    border-radius: 20rpx;
+    padding: 20rpx;
+    box-sizing: border-box;
+
+    .right_above {
+      background-image: linear-gradient(to top, #fafafa 0%, #ecf4f4 100%);
+
+      .moneyButton {
+        background-color: #fff;
+        font-size: 25rpx;
+        color: #fba165;
+        box-shadow: 2px 2px 4px rgba(107, 190, 190, 0.2);
+        border-radius: 20rpx;
+        width: 110rpx;
+        // 超出隐藏
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+    }
+
+    image {
+      width: 100rpx;
+      height: 100rpx;
+
+    }
+
+    .codeTitle {
+      font-weight: bold;
+      margin-bottom: 10rpx;
+    }
+
+    .content_text {
+      font-size: 28rpx;
+      color: #80cbcb;
+    }
+
+    .project_Icon_list {
+
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      padding: 10rpx 15rpx;
+      box-sizing: border-box;
+      text-align: center;
+
+      .project_Icon_item {
+        view {
+
+          &:first-of-type {
+            z-index: 999;
+            background-color: #a0eded;
+            margin-top: -15rpx;
+            font-size: 25rpx;
+            color: #fff;
+            border-radius: 20rpx;
+            width: 110rpx;
+            // 超出隐藏
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+          }
+
+          &:last-of-type {
+            color: gray;
+            font-size: 25rpx;
+          }
+        }
+      }
+
+    }
+
+    // 滚动条样式
+    .X_tiao {
+      margin-top: 10rpx;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      &::before {
+        content: '';
+        width: 40rpx;
+        height: 7rpx;
+        border-radius: 20rpx;
+        background-color: #6cdada;
+      }
+
+      view {
+        width: 10rpx;
+        height: 7rpx;
+        border-radius: 20rpx;
+        background-color: #b2e9e9;
+        margin: 0px 8rpx;
+      }
+
+      &::after {
+        content: '';
+        width: 10rpx;
+        height: 7rpx;
+        border-radius: 20rpx;
+        background-color: #b2e9e9;
+      }
+    }
+  }
+}
+
+.rightCode {
+  width: 100% !important;
+}
+
+.right_under {
+  background-image: linear-gradient(to top, #fafafa 0%, #ecf4f4 100%);
+  border-radius: 20rpx;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30rpx;
+
+  view {
+    font-size: 35rpx;
+    font-weight: bold;
+  }
+
+  image {
+    width: 140rpx;
+    height: 140rpx;
+  }
+}
+
+// 长卡片
+.langCode {
+  background-image: linear-gradient(to top, #fafafa 0%, #ecf4f4 100%);
+  border-radius: 20rpx;
+  box-sizing: border-box;
+  margin-top: 20rpx;
+  padding: 30rpx 20rpx;
+
+  .langtitle {
+    font-weight: bold;
+    margin-bottom: 10rpx;
+  }
+
+  .langcontent_text {
+
+    font-size: 28rpx;
+    color: #80cbcb;
+  }
+
+  .langCodeList {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 20rpx 10rpx;
+    font-size: 20rpx;
+
+    // background-color: red;
+    // overflow-x: auto;
+
+    .whiteBg {
+      background-color: #fff;
+      border-radius: 10rpx;
+      padding: 30rpx 15rpx 10rpx 15rpx;
+      margin-bottom: 10rpx;
+    }
+
+    .shopProjectName {
+      // background-color: red;
+      width: 149rpx;
+      // 超出隐藏
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    image {
+      width: 120rpx;
+      height: 120rpx;
+    }
+
+    .langMoney {
+      color: #fa6400;
+      margin-top: 10rpx;
+    }
+  }
+}
+
+// 更多好物
+.moreShopping {
+  margin-top: 30rpx;
+
+  .moreShoppingZhanwei {
+    width: 100%;
+    height: 200rpx;
+  }
+
+  .moorTitle {
+    font-weight: bold;
+  }
+
+  .moreList {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    .moreItem {
+      width: 48%;
+      margin-top: 30rpx;
+
+      image {
+        &:first-of-type {
+          width: 328rpx;
+          height: 328rpx;
+        }
+      }
+
+      // 信息
+      .item_content {
+        font-size: 32rpx;
+        width: 100%;
+        // 超出隐藏
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        // background-color: red;
+        font-weight: bold;
+
+        .shuxian {
+          color: #d9d9d9;
+          font-weight: normal;
+        }
+
+        text {
+          &:first-of-type {
+            color: #6cdada;
+            font-weight: bold;
+          }
+
+          &:last-of-type {
+            color: #373737;
+            font-weight: bold;
+          }
+        }
+      }
+
+      // 地址
+      .item_dizhi {
+        width: 100%;
+        // 超出隐藏
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        // background-color: red;
+
+        color: #bdbdbd;
+        font-size: 25rpx;
+        margin: 10rpx 0px 20rpx 0px;
+      }
+
+      // 喜欢
+      .item_likeNum {
+        width: 100%;
+        // 超出隐藏
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        // background-color: red;
+        color: #bdbdbd;
+        font-size: 25rpx;
+
+        text {
+          &:first-of-type {
+            color: #fa6c0e;
+          }
+        }
+
+        .text_numbold {
+          color: #fa6c0e;
+          font-size: 37rpx;
+
+          text {
+            font-size: 25rpx;
+            margin-right: 20rpx;
+          }
+        }
+      }
+
+      // 用户信息
+      .item_user {
+        width: 100%;
+        // 超出隐藏
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        // background-color: red;
+        margin-top: 10rpx;
+        color: #bdbdbd;
+        font-size: 25rpx;
+
+        image {
+          width: 32rpx;
+          height: 32rpx;
+        }
+      }
+    }
+  }
+}
+
+// 底部导航
+.underOuterBox {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: #fff;
+  height: 140rpx;
+  padding: 20rpx 50rpx;
+  box-shadow: 0px -1px 10px rgba(0, 0, 0, 0.1);
+  // text-align: center;
+  font-size: 25rpx;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+
+  .underBox {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    // z-index: 999;
+    width: 100%;
+
+    .underBoxitem {
+      image {
+        width: 50rpx;
+        height: 50rpx;
+      }
+    }
+
+    .underzhanwei {
+      background-color: red;
+      width: 50rpx;
+      height: 50rpx;
+    }
+
+    .underAdd {
+      position: absolute;
+      background-color: #fff;
+      border-radius: 50%;
+      width: 150rpx;
+      height: 150rpx;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      // box-shadow: 0px -1px 1px rgba(0, 0, 0, 0.1);
+      left: 50%;
+      transform: translateX(-50%);
+      top: -60rpx;
+
+      image {
+        width: 100rpx;
+        height: 100rpx;
+      }
+    }
+  }
+}

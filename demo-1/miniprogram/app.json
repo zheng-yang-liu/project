@@ -1,6 +1,7 @@
 {
   "pages": [
     
+    "pages/mother/mother",
     "pages/index/index",
     "pages/my/my",
     "pages/dialog/dialog",

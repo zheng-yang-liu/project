@@ -1,0 +1,342 @@
+<view class="montherOuterBox">
+  <view class="sousuoOuterBox">
+    <view class="sousuoBox">
+      <view class="left_input">
+        <input type="text" placeholder="请输入内容搜索" />
+        <view>搜索</view>
+      </view>
+      <view class="right_qiandao">
+        <view class="posR">
+          <image src="../../img2/658.png" mode="" />
+          <view>签到</view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="bunner">
+    <image src="../../img2/240.png" mode="" />
+  </view>
+
+  <view class="shopingProjectIcon">
+    <view class="item">
+      <image src="../../img2/272.png" mode="" />
+      <view>平衡车</view>
+    </view>
+
+    <view class="item">
+      <image src="../../img2/149.png" mode="" />
+      <view>婴儿床</view>
+    </view>
+
+    <view class="item">
+      <image src="../../img2/992.png" mode="" />
+      <view>餐具</view>
+    </view>
+
+    <view class="item">
+      <image src="../../img2/212.png" mode="" />
+      <view>纸尿裤</view>
+    </view>
+
+    <view class="item">
+      <image src="../../img2/834.png" mode="" />
+      <view>宝宝个护</view>
+    </view>
+
+    <view class="item">
+      <image src="../../img2/089.png" mode="" />
+      <view>宝宝衣服</view>
+    </view>
+
+    <view class="item">
+      <image src="../../img2/750.png" mode="" />
+      <view>宝宝鞋子</view>
+    </view>
+
+    <view class="item">
+      <image src="../../img2/923.png" mode="" />
+      <view>益智玩具</view>
+    </view>
+
+    <view class="item">
+      <image src="../../img2/130.png" mode="" />
+      <view>绘画书籍</view>
+    </view>
+
+    <view class="item">
+      <image src="../../img2/985.png" mode="" />
+      <view>更多</view>
+    </view>
+  </view>
+  <!-- 选项卡 -->
+  <view class="shoppingProjectCodeBox">
+    <view class="ShopingProjectCode">
+      <view class="codeTitle">免费送</view>
+      <view class="content_text">免费好物 | 先到先得</view>
+      <view class="project_Icon_list">
+        <view class="project_Icon_item">
+          <image src="../../img2/157.png" mode="" />
+          <view>纸尿裤</view>
+          <view>美茵</view>
+        </view>
+        <view class="project_Icon_item">
+          <image src="../../img2/252.png" mode="" />
+          <view>奶粉</view>
+          <view>诺优能</view>
+        </view>
+        <view class="project_Icon_item">
+          <image src="../../img2/826.png" mode="" />
+          <view>沐浴露</view>
+          <view>sansan</view>
+        </view>
+        <view class="project_Icon_item">
+          <image src="../../img2/957.png" mode="" />
+          <view>爽身粉</view>
+          <view>强生</view>
+        </view>
+      </view>
+      <!-- 滚动条 -->
+      <view class="X_tiao">
+        <view></view>
+      </view>
+    </view>
+    <!-- 右侧 -->
+    <view class="ShopingProjectCodeHeight">
+      <view class="ShopingProjectCode rightCode">
+        <view class="right_above">
+          <view class="codeTitle">免费送</view>
+          <view class="content_text">免费好物 | 先到先得</view>
+          <view class="project_Icon_list">
+            <view class="">
+              <image src="../../img2/656.png" mode="" />
+              <view class="moneyButton">￥120</view>
+            </view>
+            <view class="">
+              <image src="../../img2/524.png" mode="" />
+              <view class="moneyButton">￥30</view>
+            </view>
+          </view>
+          <!-- 滚动条 -->
+          <view class="X_tiao">
+            <view></view>
+          </view>
+        </view>
+      </view>
+
+      <view class="right_under">
+        <view>旧物换新</view>
+        <image src="../../img2/265.png" mode="" />
+      </view>
+    </view>
+  </view>
+  <!-- 长卡片 -->
+  <view class="langCode">
+    <view class="langtitle">推荐更多好物</view>
+
+    <view class="langcontent_text">推荐好物 | 快来看看吧</view>
+    <view class="langCodeList">
+      <view class="langCodeListItem">
+        <view class="whiteBg">
+          <image src="../../img2/656.png" mode="" />
+        </view>
+        <view class="shopProjectName">诺优能奶粉</view>
+        <view class="langMoney">￥120</view>
+      </view>
+
+      <!-- <view class="langCodeListItem">
+        <view class="whiteBg">
+          <image src="../../img2/667.png" mode="" />
+        </view>
+        <view class="shopProjectName">益智积木</view>
+        <view class="langMoney">￥120</view>
+      </view> -->
+
+      <view class="langCodeListItem">
+        <view class="whiteBg">
+          <image src="../../img2/667.png" mode="" />
+        </view>
+        <view class="shopProjectName">益智积木</view>
+        <view class="langMoney">￥120</view>
+      </view>
+
+      <view class="langCodeListItem">
+        <view class="whiteBg">
+          <image src="../../img2/843.png" mode="" />
+        </view>
+        <view class="shopProjectName">积木玩具</view>
+        <view class="langMoney">￥120</view>
+      </view>
+
+      <view class="langCodeListItem">
+        <view class="whiteBg">
+          <image src="../../img2/860.png" mode="" />
+        </view>
+        <view class="shopProjectName">婴儿湿巾</view>
+        <view class="langMoney">￥20</view>
+      </view>
+    </view>
+  </view>
+  <!-- 更多好物 -->
+  <view class="moreShopping">
+    <view class="moorTitle">更多好物</view>
+    <view class="moreList">
+      <view class="moreItem">
+        <image src="../../img2/223.png" />
+        <view class="item_content">
+          <text>自提</text> 
+          <text class="shuxian"> | </text>
+          <text>电子恒温保温杯</text>
+        </view>
+        <view class="item_dizhi">
+          北京-丰台区 | 餐具
+        </view>
+        <view class="item_likeNum">
+          <text>￥</text>
+          <text class="text_numbold">48<text>.50</text></text>
+          486人喜欢
+        </view>
+        <view class="item_user">
+          <image src="../../img2/378.png" mode=""/>
+          Cole Mack
+        </view>
+      </view>
+
+      <view class="moreItem">
+        <image src="../../img2/433.png" />
+        <view class="item_content">
+          <text>自提</text> 
+          <text class="shuxian"> | </text>
+          <text>儿童棉柔巾</text>
+        </view>
+        <view class="item_dizhi">
+          北京-丰台区 | 餐具
+        </view>
+        <view class="item_likeNum">
+          <text>￥</text>
+          <text class="text_numbold">48<text>.50</text></text>
+          486人喜欢
+        </view>
+        <view class="item_user">
+          <image src="../../img2/378.png" mode=""/>
+          Cole Mack
+        </view>
+      </view>
+
+      <view class="moreItem">
+        <image src="../../img2/961.png" />
+        <view class="item_content">
+          <text>自提</text> 
+          <text class="shuxian"> | </text>
+          <text>十月结晶婴儿果蔬</text>
+        </view>
+        <view class="item_dizhi">
+          北京-丰台区 | 餐具
+        </view>
+        <view class="item_likeNum">
+          <text>￥</text>
+          <text class="text_numbold">48<text>.50</text></text>
+          486人喜欢
+        </view>
+        <view class="item_user">
+          <image src="../../img2/378.png" mode=""/>
+          Cole Mack
+        </view>
+      </view>
+
+      <view class="moreItem">
+        <image src="../../img2/702.png" />
+        <view class="item_content">
+          <text>自提</text> 
+          <text class="shuxian"> | </text>
+          <text>儿童座椅</text>
+        </view>
+        <view class="item_dizhi">
+          北京-丰台区 | 餐具
+        </view>
+        <view class="item_likeNum">
+          <text>￥</text>
+          <text class="text_numbold">48<text>.50</text></text>
+          486人喜欢
+        </view>
+        <view class="item_user">
+          <image src="../../img2/378.png" mode=""/>
+          Cole Mack
+        </view>
+      </view>
+
+      <view class="moreItem">
+        <image src="../../img2/223.png" />
+        <view class="item_content">
+          <text>自提</text> 
+          <text class="shuxian"> | </text>
+          <text>奶瓶</text>
+        </view>
+        <view class="item_dizhi">
+          北京-丰台区 | 餐具
+        </view>
+        <view class="item_likeNum">
+          <text>￥</text>
+          <text class="text_numbold">48<text>.50</text></text>
+          486人喜欢
+        </view>
+        <view class="item_user">
+          <image src="../../img2/378.png" mode=""/>
+          Cole Mack
+        </view>
+      </view>
+
+      <view class="moreItem">
+        <image src="../../img2/223.png" />
+        <view class="item_content">
+          <text>自提</text> 
+          <text class="shuxian"> | </text>
+          <text>奶瓶</text>
+        </view>
+        <view class="item_dizhi">
+          北京-丰台区 | 餐具
+        </view>
+        <view class="item_likeNum">
+          <text>￥</text>
+          <text class="text_numbold">48<text>.50</text></text>
+          486人喜欢
+        </view>
+        <view class="item_user">
+          <image src="../../img2/378.png" mode=""/>
+          Cole Mack
+        </view>
+      </view>
+    </view>
+    <view class="moreShoppingZhanwei"></view>
+  </view>
+</view>
+
+
+<!-- 底部导航 -->
+<view class="underOuterBox">
+  <view class="underBox">
+    <view class="underBoxitem">
+      <image src="../../img2/020.png" alt=""/>
+      <view>首页</view>
+    </view>
+    <view class="underBoxitem">
+      <image src="../../img2/181.png" alt=""/>
+      <view>树洞</view>
+    </view>
+    <view class="underzhanwei">
+    </view>
+    <view class="underAdd">
+      <image src="../../img2/680.png" alt=""/>
+    </view>
+
+    
+
+    <view class="underBoxitem">
+      <image src="../../img2/877.png" alt=""/>
+      <view>消息</view>
+    </view>
+    <view class="underBoxitem">
+      <image src="../../img2/963.png" alt=""/>
+      <view>我的</view>
+    </view>
+  </view>
+</view>

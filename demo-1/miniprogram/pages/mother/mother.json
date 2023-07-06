@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "backgroundTextStyle": "light",
+  "navigationBarBackgroundColor": "#fff",
+  "navigationBarTitleText": "母婴小程序",
+  "navigationBarTextStyle": "black"
+}
