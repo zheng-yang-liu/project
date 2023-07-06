@@ -1,8 +1,8 @@
 <view class="bgimg_top_box">
-  <view class="header">
+  <!-- <view class="header">
     <image src="../../images/fanhui.png"></image>
     <view class="my_text">我的</view>
-  </view>
+  </view> -->
   <image src="../../images/457.png" class="bgimg_top"></image>
   <view class="mycontent">
     <view class="culpture">

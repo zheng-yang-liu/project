@@ -1,0 +1,43 @@
+<view class="indexOuterBox">
+  <view class="title">奈雪的茶(北京丰台万达店)</view>
+  <view class="moneybgBox">
+    <image src="../../img/499.png" />
+    <view class="moneyContent">
+      <view class="left">
+        <view>我的钱包</view>
+        <view class="left_money">999,000<text>.50</text></view>
+        <view>满1000000可提现</view>
+      </view>
+      <view class="right">
+        <view class="right_box">
+          <image src="../../img/650.png" />
+          <view>提现</view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <!-- 中间内容 -->
+  <view class="middleContent">
+    <view class="code">
+      <view> 29,900<text>.50</text></view>
+      <view>今日流水</view>
+    </view>
+    <view class="code">
+      <view>124</view>
+      <view>今日订单量</view>
+    </view>
+  </view> 
+  <!-- 底部内容 -->
+  <view class="underContent">
+    <view class="list">
+      <image src="../../img/716.png" />
+      <view>店铺二维收款码</view>
+      <image src="../../img/713.png" mode=""/>
+    </view>
+    <view class="list">
+      <image src="../../img/684.png" />
+      <view>返回用户端</view>
+      <image src="../../img/713.png" mode=""/>
+    </view>
+  </view>
+</view>
