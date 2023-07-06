@@ -1,0 +1,85 @@
+<view class="bgimg_top_box">
+  <view class="header">
+    <image src="../../images/fanhui.png"></image>
+    <view class="my_text">我的</view>
+  </view>
+  <image src="../../images/457.png" class="bgimg_top"></image>
+  <view class="mycontent">
+    <view class="culpture">
+      <image src="../../images/170.png"></image>
+    </view>
+    <view class="mycontent_text">
+      <view class="name">去开门的克里斯</view>
+      <view class="phone">13273245228</view>
+    </view>
+  </view>
+  <view class="mycontent_box"></view>
+  <view class="youhui_box">
+    <view class="youhui_box_text">
+      <image src="../../images/917.png"></image>
+      <view class="youhui_box_text_contenet">
+
+        <view class="above">
+          <view>我的优惠券</view>
+          <view class="youhui_box_text_contenet_right">
+            <view>查看更多内容</view>
+            <image src="../../images/125.png"></image>
+          </view>
+        </view>
+        <view class="fenge"></view>
+        <view class="under">
+          <view class="under_img_box">
+            <image src="../../images/280.png"></image>
+            <view class="project_text">待使用</view>
+          </view>
+
+          <view class="under_img_box">
+            <image src="../../images/280.png"></image>
+            <view class="project_text">待使用</view>
+          </view>
+
+          <view class="under_img_box">
+            <image src="../../images/280.png"></image>
+            <view class="project_text">待使用</view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+<view class="bgimg_bottom_box">
+  <view class="bgimg_bottom_above">
+    <view class="bgimg_bottom_above_abovr">
+      <view class="bgimg_bottom_above_abovr_left">
+        <image src="../../images/014.png"></image>
+        <view class="project_name">消费记录</view>
+      </view>
+      <view class="bgimg_bottom_above_abovr_right">
+        <image src="../../images/103.png"></image>
+      </view>
+    </view>
+
+    <view class="bgimg_bottom_above_abovr">
+      <view class="bgimg_bottom_above_abovr_left">
+        <image src="../../images/001.png"></image>
+        <view class="project_name">实名认证</view>
+      </view>
+      <view class="bgimg_bottom_above_abovr_right">
+        <image src="../../images/103.png"></image>
+      </view>
+    </view>
+  </view>
+  <view class="bgimg_bottom_under">
+    <view class="bgimg_bottom_above">
+      <view class="bgimg_bottom_above_abovr">
+        <view class="bgimg_bottom_above_abovr_left">
+          <image src="../../images/462.png"></image>
+          <view class="project_name">商家登录</view>
+        </view>
+        <view class="bgimg_bottom_above_abovr_right">
+          <image src="../../images/103.png"></image>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

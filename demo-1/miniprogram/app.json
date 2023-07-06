@@ -1,9 +1,10 @@
 {
   "pages": [
     
+    "pages/my/my",
     "pages/dialog/dialog",
-    "pages/home/home",
     "pages/index/index",
+    "pages/home/home",
     "pages/logs/logs"
   ],
   "window": {
